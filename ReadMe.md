@@ -18,6 +18,7 @@ Download links:
 Optionaly:
  * https://www.anaconda.com/download/
  * conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 cpuonly -c pytorch
+ * Intel GPU for PyTorch 2.x: https://github.com/intel/intel-extension-for-pytorch
  
  Env could be configured starting prepareEnv.ps1 via PowerShell - could be blocked by antivirus system.
  As a workaround,
