@@ -1,6 +1,10 @@
 Main repository: 
 https://github.com/openai/whisper
 
+Description: simple analytics of use of Open AI whisper with few example of processing audio files taken from open for use sites: 
+ * https://www.kaggle.com/
+ * https://freesound.org/
+
 Download links:
  * https://www.python.org/downloads/release/python-3913/
  * pip install torch==1.13.1+cpu torchvision==0.14.1+cpu torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cpu
