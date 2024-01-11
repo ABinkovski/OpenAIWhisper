@@ -19,7 +19,10 @@ Optionaly:
  * https://www.anaconda.com/download/
  * conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 cpuonly -c pytorch
  
- 
+ Env could be configured starting prepareEnv.ps1 via PowerShell - could be blocked by antivirus system.
+ As a workaround,
+ Could be startet all commands from folder (either .bat or .ps1):
+ prepare-env
  
  Additional info:
  * https://www.kaggle.com/datasets/pavanelisetty/sample-audio-files-for-speech-recognition
