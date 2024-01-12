@@ -7,7 +7,7 @@ $env:PYTHONIOENCODING = "utf-8"
 foreach ($model in $modelArray) {
 	Write-Host "Start processing with model: $model"
     Measure-Command { 
-		whisper $fileName --model $model --output_dir out/ro/$model --language ro --output_format all --condition_on_previous_text True --word_timestamps True  --fp16 False
+		whisper $fileName --model $model --output_dir out/ro-en/$model --language ro --task translate --output_format all --condition_on_previous_text True --word_timestamps True  --fp16 False
 	}
 }
 

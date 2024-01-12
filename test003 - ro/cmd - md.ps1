@@ -1,6 +1,9 @@
 $modelArray = @("tiny","base","small","medium","large","large-v2","large-v3")
 $fileName="Sedinta plenara a Parlamentului - 28 decembrie 2023-vbr.mp3"
 
+$OutputEncoding = [Console]::OutputEncoding = (new-object System.Text.UTF8Encoding $false)
+$env:PYTHONIOENCODING = "utf-8"
+
 foreach ($model in $modelArray) {
 	Write-Host "Start processing with model: $model"
     Measure-Command { 
