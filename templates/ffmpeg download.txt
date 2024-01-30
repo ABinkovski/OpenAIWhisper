@@ -1,0 +1,4 @@
+ffmpeg -i "YOUR URL TO DOWNLOAD VIDEO FROM" -c:v libx264 -preset slow -crf 22 "saveas.mp4"
+
+ffmpeg -i "anyFile.m3u8" -c:v libx264 -preset slow -crf 22 "saveas.mp4"
+
