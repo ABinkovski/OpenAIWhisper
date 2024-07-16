@@ -14,7 +14,7 @@ foreach ($model in $modelArray) {
 		$fullFileName="$fileName.$fileExtension"
 		Write-Host "$(Get-Date -Format 'HH:mm:ss')  Start processing with model: [$model] for file: [$fullFileName]"
 		Measure-Command { 
-			whisper $fullFileName --model $model --output_dir out/$language/$model --language $language --output_format all --condition_on_previous_text True --word_timestamps True  --fp16 False
+			whisper $fullFileName --model $model --output_dir out/$language/$model --language $language --output_format all --condition_on_previous_text True --word_timestamps True  --fp16 False --verbose False
 		}
 	}
 }
